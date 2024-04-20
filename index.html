@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <script src="./clock.js"></script>
+  <title>Digital Clock</title>
+  
+</head>
+<body>
+  <div id="time">
+    <div class="circle" style="--clr: #e9007f">
+      <div class="dots hr_dot"></div>
+      <svg>
+        <circle cx="75" cy="75" r="70"></circle>
+        <circle cx="75" cy="75" r="70" id="hh"></circle>
+      </svg>
+      <div id="hours">00</div>
+    </div>
+    <div class="circle" style="--clr: #00fff0">
+      <div class="dots min_dot"></div>
+      <svg>
+        <circle cx="75" cy="75" r="70"></circle>
+        <circle cx="75" cy="75" r="70" id="mm"></circle>
+      </svg>
+      <div id="minutes">00</div>
+    </div>
+    <div class="circle" style="--clr: #f9fd50">
+      <div class="dots sec_dot"></div>
+      <svg>
+        <circle cx="75" cy="75" r="70"></circle>
+        <circle cx="75" cy="75" r="70" id="ss"></circle>
+      </svg>
+      <div id="seconds">00</div>
+    </div>
+    <div class="ap">
+      <div id="ampm">AM</div>
+    </div>
+  </div>
+
+
+ 
+    <div class="display-date">
+      <span id="day">day</span>,
+      <span id="daynum">00</span>
+      <span id="month">month</span>
+      <span id="year">0000</span>
+    
+  </div>
+  
+</body>
+</html>
